@@ -25,7 +25,7 @@ class Game {
             }
         }
         this.indexes.push(this.count-1);
-        this.randomize(150);
+        this.randomize(75);
     }
     randomize(iterationCount) {
         for(let i=0;i<iterationCount;i++){
