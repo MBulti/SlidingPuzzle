@@ -5,7 +5,7 @@ class Game {
     blocks;
     emptyBlockCoords=[2,2];
     indexes=[];
-    winmessage="Herzlichen Glückwunsch zum Geburtstag! Ein Wochenende am Strand als Geschenkgutschein.";
+    winmessage="Herzlichen Glückwunsch zum Geburtstag! Dies ist ein Geschenkgutschein für ein Kurztripurlaub (z.B. Strand).";
 
     constructor(){
         this.count=this.cols*this.rows;
